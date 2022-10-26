@@ -1,0 +1,64 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.font-bolder{
+    font-weight: bolder;
+}
+ 
+.my-1{
+    margin-top: -350px;
+    margin-bottom: 25px;
+}
+
+.px-2{
+    padding-left: 355px;
+    padding-right: 15px;
+}
+
+.text-bluevoilet{
+    color: blueviolet;
+}
+
+.underline{
+    cursor: pointer;
+    border: 2px;
+}
+
+.btn{
+    padding: 4px 12px;
+    border: 2px solid rgb(255, 0, 191);
+    border-radius: 13px;
+    color: blanchedalmond;
+    cursor: pointer;
+    background-color: blueviolet;
+}

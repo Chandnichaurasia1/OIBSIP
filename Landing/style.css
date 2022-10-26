@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 80vw;
+    font-family: 'Dancing Script', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    height: 70px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 15px;
+}
+
+.topleft{
+    width: 50%;
+    height: 55vh;
+}
+
+.topright{
+    height: 70vh;
+    width: -225%;
+}
+
+.section1{
+    min-height: 70vh;
+}
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.pngtreeimg{
+    height: 100%;
+    min-width: 750%;
+}
+
+.section1 h1{
+    font-size: 2rem;
+}
+
+.section1 p{
+    font-size: 1.4rem;
+    color: black;
+    border-radius: 2px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aliceblue;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: palevioletred;
+    height: auto;
+    width: 100vw;
+    font-family: Open Sans;
+    padding-top: 40px;
+    color: beige;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    foot-size: 1.3rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: blue;
+}
+.socials a i{
+    font-size: 1.1rem;
+
+}
+.socials a:hover i{
+    color: aqua;
+}
+
+.footer-bottom{
+    background: #000;
+    width: 100vw;
+    position: 20px 0;
+    text-align: center;
+}
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
